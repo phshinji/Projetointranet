@@ -1,0 +1,18 @@
+article li {
+    margin-bottom: 1rem;
+}
+
+article li {
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 3rem;
+    margin: 2rem;
+}

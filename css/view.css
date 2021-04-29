@@ -1,0 +1,35 @@
+.date-author {
+    display: block;
+    text-align: right;
+    padding: .3rem .5rem;
+    background-color: rgb(253, 188, 188);
+    font-style: italic;
+    border-radius: .5rem;
+}
+
+.return-link {
+    display: table;
+    margin: 2rem auto 1rem auto;
+    background: linear-gradient(rgb(71, 160, 233), rgb(103, 115, 124));
+    color: rgb(200, 230, 36);
+    padding: .5rem 3rem;
+    border-radius: 1rem;
+}
+
+.return-link a {
+    color: rgb(221, 190, 190);
+}
+
+.return-link:hover {
+    background: #121983;
+}
+
+.author {
+    text-align: center;
+}
+
+.author img {
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}

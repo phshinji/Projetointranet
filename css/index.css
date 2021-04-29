@@ -1,0 +1,36 @@
+/* Estilos da index */
+
+.article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.article img {
+    width: 110px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.article h4 {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.article:nth-child(even) {
+    /* background: rgba(0,0,0,.2); */
+    background-color: rgb(228, 180, 180);
+}
+
+.article:nth-child(odd) {
+    /* background: rgba(0,0,0,.1); */
+    background-color: rgb(206, 229, 233);
+}
+
+.article:hover {
+    background: rgb(245, 73, 73);
+    cursor: pointer;
+}
